@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=El+Messiri&family=Exo+2&family=Caveat&family=Lemonada&family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+#navbar::before{
+    background-color: rgb(214, 91, 91);
+    opacity: 1.0;
+}
+.container{
+    margin: 20px 20px;
+    height: 82.5vh;
+}
+h1{
+    margin: 10px 0px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 7px;
+    margin: 10px 0px;
+    border: 2px solid goldenrod;
+    outline: none;
+    border-radius: 5px;
+}
+#res{
+    color: red;
+}
+.btn{
+    margin-top: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(179, 38, 38);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#footer{
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

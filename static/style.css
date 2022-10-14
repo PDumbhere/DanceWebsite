@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=El+Messiri&family=Exo+2&family=Caveat&family=Lemonada&family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    
+    /* border: 2px solid brown; */
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 157, 157);
+    opacity: 0.5;
+    z-index: -1;
+}
+#logo{
+    height: 68px;
+    width: 118px;
+}
+
+#logo img{
+    padding: 2px 30px;
+    height: 64px;
+    
+}
+#logo img{
+    position: absolute;
+    top: 2px;
+    left: 30px;
+    height: 154px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    width: 80%;
+}
+li{
+    list-style: none;
+    /* padding: 0px 30px; */
+}
+li>a{
+    text-decoration: none;
+    color: rgb(252, 252, 149);
+    text-shadow: -1px -1px 1px black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    /* font-weight: bold; */
+    padding: 15px 30px;
+}
+/* li:hover{
+    background-color:rgb(218, 188, 188);
+    border-radius: 10px;
+    cursor: pointer;
+    
+} */
+li>a:hover{
+    background-color:rgb(218, 188, 188);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(1, 1, 39);
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+    padding-bottom: 30px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lemonada', cursive;
+    font-size: 40px;
+    color: white;
+    
+}
+#introSection::before{
+    content: "";
+    width: 100%;
+    height: 468px;
+    position: absolute;
+    top: 0px;
+    background: url(/static/bg.jpg) no-repeat center center/cover;
+    z-index: -1;
+}
+#introSection .small{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+#missionSection{
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+}
+.card{
+    display: inline-block;
+    height: 220px;
+    width: 30%;
+    padding-top: 10px;
+    margin: 10px 10px;
+    border: 2px solid peru;
+    border-radius: 15px;
+}
+.card h3{
+    font-family: 'Lemonada', cursive;
+}
+.card-box{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    height: 124px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
+#sponsorsSection{
+    padding: 10px;
+    text-align: center;
+    background-color: orchid;
+    height: 300px;
+}
+.logo-container{
+    margin: 20px;
+    height: 140px;
+}
+.logo-container img{
+    height:inherit;
+    padding: 20px;
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 34px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

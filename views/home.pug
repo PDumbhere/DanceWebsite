@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts 
+    script(src="/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Pratik's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+    section#missionSection 
+        h2 Our mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p We train you to perfect your moves that bring about true expression of your desires
+        div.card
+            h3 Dance The way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p Dance with your heart's content and express your emotions. 
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p We have the best dance experts having experience to train big stars in Bollywood.
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div.logo-container 
+            img(src="/static/img/logo1.png", alt="")
+            img(src="/static/img/logo2.png", alt="") 
+            img(src="/static/img/logo3.png", alt="") 
+            img(src="/static/img/logo4.png", alt="") 
+    
